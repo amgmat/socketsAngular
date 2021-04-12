@@ -9,7 +9,8 @@ import cors from 'cors';
 // const nombre = 'Alejandro';
 // console.log(`Mi nombre es ${nombre}`);
 
-const server = new Server();
+const server = Server.instance;
+// const server = new Server();
 
 // Body-parser - forma anterior, esta quedando obsoleto deprecated
 // server.app.use(bodyParser.urlencoded({extended: true}));
